@@ -51,7 +51,7 @@ final class BrowseBookListener implements AdapterView.OnItemClickListener {
       String uri = activity.getISBN();
       int equals = uri.indexOf('=');
       String volumeId = uri.substring(equals + 1);
-      String readBookURI = "http://books.google." +
+      String readBookURI = "https://books.google." +
           LocaleManager.getBookSearchCountryTLD(activity) +
           "/books?id=" + volumeId + "&pg=" + pageId + "&vq=" + query;
       Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(readBookURI));
