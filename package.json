@@ -1,10 +1,27 @@
 {
-"name": "zxing-customBranch",
-"description": "forked",
-"version": "0.0.1",
-"author": "xx <xx@xx.com >",
-"dependencies": {
-"ThinServ" : "git://github.com/rrahhal1/zxing/tree/customBranch"
-},
-"engines": { "node": ">= 0.8.0" }
+  "name": "package.json",
+  "description": "forked",
+  "version": "0.0.1",
+  "author": "xx <xx@xx.com >",
+  "dependencies": {
+    "ThinServ": "git://github.com/rrahhal1/zxing/tree/customBranch"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rrahhal1/zxing/tree/master"
+  },
+  "keywords": [
+    "https"
+  ],
+  "license": "ISC"
 }
